@@ -1,0 +1,46 @@
+/*  C++ Program to Calculate Compound Interest  */
+
+#include<iostream>
+#include<math.h>
+using namespace std;
+
+int main()
+{
+    float p,r,t,ci;
+
+    cout<<"Enter Principle (Amount) :: ";
+    cin>>p;
+    cout<<"\nEnter Rate of Interest :: ";
+    cin>>r;
+    cout<<"\nEnter Time Period :: ";
+    cin>>t;
+
+    ci = p*pow((1+r/100),t);
+
+    cout<<"\nThe Calculated Compound Interest is = "<<ci<<"\n";
+
+    return 0;
+}
+
+
+// C# program to find compound
+// interest for given values
+using System;
+
+class GFG {
+
+	// Driver Code
+	public static void Main()
+	{
+		double principle = 10000, rate = 5, time = 2;
+
+		// Calculate compound interest
+		double A = principle * (Math.Pow((1 +
+					rate / 100), time));
+		double CI = A - principle;
+		
+		Console.Write("Compound Interest is "+ CI);
+	}
+}
+
+//This Code is Contributed by Sahil Rai.

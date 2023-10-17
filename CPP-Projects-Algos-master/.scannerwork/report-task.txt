@@ -1,0 +1,6 @@
+projectKey=cpp1610
+serverUrl=http://localhost:9095
+serverVersion=9.5.0.56709
+dashboardUrl=http://localhost:9095/dashboard?id=cpp1610
+ceTaskId=AYs3ZGvX-_gOOvILvQOc
+ceTaskUrl=http://localhost:9095/api/ce/task?id=AYs3ZGvX-_gOOvILvQOc
